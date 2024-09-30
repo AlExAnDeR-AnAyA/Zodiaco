@@ -1,0 +1,51 @@
+body {
+    background-image: url("amor_para_cada_signo_em_2024_1024x682-31697938.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(235, 17, 17);
+
+}
+body h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100%;
+    width: 100%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+}
+@keyframes slidein {
+    form {
+       margin-left: 100%;
+       width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+form input{
+    padding: 9px 18px;
+    border-radius: 10px;
+    font-family: fantasy;
+    font-style: oblique;
+}
+form button {
+    font-family: fantasy;
+    padding: 10px 20px;
+    background-color: coral;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    
+}
+div{
+    color: blue;
+    font-size: 35px;
+    
+}
